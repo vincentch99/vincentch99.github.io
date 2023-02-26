@@ -19,30 +19,31 @@
     <header>
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-    <div class="container">
-        <a class="navbar-brand" href="#">Vincent Chendrawan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            
+        <div class="container">
+            <a class="navbar-brand" href="#">Vincent Chendrawan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
         </div>
-    </div>
     </nav>
+    <div style="height: 60px;"></div>
     </header>
     <main>       
      <!-- main banner -->
@@ -212,6 +213,24 @@
                 </a>
             </div>
     </section>
+    <div class="section section-normal bg-grey" id="contact">
+        <div class="section-inner">
+            <span class="section-title">Contact</span>
+            <div class="d-flex contact-inner flex-column-reverse flex-xl-row">
+                <iframe id="gmap_canvas" src="https://www.google.com/maps/@37.8659984,-122.2665063,14.52z" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="mr-4 mt-4 mt-xl-0"></iframe>
+                <form class="form-blog" method="post" action="https://send.pageclip.co/undefined/undefined">
+                    <div class="input-group">
+                        <input type="text" class="input-group-text" name="name" placeholder="Name*" required="">
+                        <input type="email" class="input-group-text" name="email" placeholder="Email*" required="">
+                        <input type="text" class="input-group-text" name="phone" placeholder="Phone Number">
+                    </div>
+                    <input type="text" class="form-control" name="subject" placeholder="Message Subject" required="">
+                    <textarea class="form-control" name="content" placeholder="Message Content" rows="10" required=""></textarea>
+                    <button type="submit" class="btn w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
     </main>
     <!-- footer section-->
     <footer id="footer">
