@@ -55,6 +55,32 @@
     width: 100%;
     height: 82px;
 }
+@keyframes floating-arrow {
+    0% {
+        transform: translateY(10px)
+    }
+
+    50% {
+        transform: translateY(-5px)
+    }
+
+    to {
+        transform: translateY(10px)
+    }
+}
+.fa-chevron-down:before {
+    content: "\f078";
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
 
 /* Gatsby */
 
@@ -922,6 +948,19 @@ border: 1px solid #000;
 box-sizing: border-box;
 border-radius: 6px;
 background-color: #fff
+}
+
+.button-message {
+cursor: pointer;
+background: #1b44b6;
+border: 1px solid #2b46a6;
+box-sizing: border-box;
+border-radius: 8px;
+font-weight: 700;
+padding-right: 26px;
+padding-left: 26px;
+box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+width: 100%!important
 }
 
 .slick-slide:focus {
