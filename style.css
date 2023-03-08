@@ -27,6 +27,8 @@
 .white {
     color: white
 }
+.Georgia { font-family: Georgia, 'Times New Roman', Times, serif;}
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
