@@ -8,10 +8,12 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: Georgia;
     color: rgb(13, 18, 57);
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: Georgia;
     color: rgb(13, 18, 57);
 }
 .hero-text {
