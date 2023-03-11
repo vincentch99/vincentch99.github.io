@@ -37,6 +37,23 @@
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+/* Project Section */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
   /* social media icons styling */
 .social-icons {
     font-size: 36px;
