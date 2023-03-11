@@ -2,7 +2,7 @@
 .bgimage {
     height:100vh;
     background: url('pictures/bgImage.jpg');
-    background-color: #d5e0ea;
+    background-color: #edf2f7;
     background-size:cover;
     position:relative;
 }
