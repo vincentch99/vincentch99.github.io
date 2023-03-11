@@ -2,6 +2,7 @@
 .bgimage {
     height:100vh;
     background: url('pictures/bgImage.jpg');
+    background-color: #92acc6;
     background-size:cover;
     position:relative;
 }
@@ -802,7 +803,7 @@ margin-top: 60px
 .experience-container .experience-items-wrapper {
 width: 100%;
 display: grid;
-grid-template-columns: repeat(auto-fill,minmax(420px,1fr));
+grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
 grid-column-gap: 25px;
 grid-row-gap: 20px
 }
@@ -959,8 +960,8 @@ background-color: #fff
 
 .button-message {
 cursor: pointer;
-background: #1b44b6;
-border: 1px solid #2b46a6;
+background: #04091a;
+border: 1px solid #04091a;
 box-sizing: border-box;
 border-radius: 8px;
 font-weight: 700;
