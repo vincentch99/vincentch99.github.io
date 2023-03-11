@@ -962,6 +962,7 @@ background-color: #fff
 cursor: pointer;
 background: #04091a;
 border: 1px solid #04091a;
+display: inline-block;
 box-sizing: border-box;
 border-radius: 8px;
 font-weight: 700;
