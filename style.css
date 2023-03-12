@@ -81,20 +81,8 @@
     width: 100%;
     height: 82px;
 }
-@keyframes floating-arrow {
-    0% {
-        transform: translateY(10px)
-    }
 
-    50% {
-        transform: translateY(-5px)
-    }
-
-    to {
-        transform: translateY(10px)
-    }
-}
-.fa-chevron-down:before {
+.fa-chevron-down {
     content: "\f078";
 }
 
