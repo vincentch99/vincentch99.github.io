@@ -5,6 +5,7 @@
     background-color: #edf2f7;
     background-size:cover;
     position:relative;
+    color: #000;
 }
 /* text css above hero image*/
 .hero_title {
