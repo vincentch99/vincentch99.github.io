@@ -718,7 +718,7 @@ width: 100%;
 height: 82px
 }
 
-.jumbotron-cs .scroll-more i {
+.container-fluid .scroll-more i {
 cursor: pointer;
 animation-name: floating-arrow;
 animation-iteration-count: infinite;
